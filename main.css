@@ -95,17 +95,30 @@ main {
     margin-right: auto;
 }
 
+.gradient-border {
+    position: relative;
+    background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box,
+    linear-gradient(0deg, var(--primary-color) 0%, var(--secondary-color) 100%) border-box;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 1;
+}
+
 .box {
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 10px;
-    padding: 15px;
-    background-color: #ffffff1a;
-    border: 2px solid var(--secondary-color);
     border-radius: 10px;
     text-align: center;
-
+    z-index: 2;
 }
+
+.box:hover{
+    transform: translateY(-8px);
+    z-index: 3;
+}
+
 
 .box img {
     max-width: 100%;
@@ -115,14 +128,14 @@ main {
 }
 
 .box h2 {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: var(--primary-color);
     height: 40px;
 }
 
 .box p {
     color: var(--text-color);
-    font-size: 0.9rem;
+    font-size: 16px;
 }
 
 
