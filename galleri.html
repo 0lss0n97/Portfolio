@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects | Marcus Olsson</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 <h1>Marcus Portfolio</h1>
 <nav class="navbar">
     <ul>
         <li><a href="förstaSida.html" class="nav-link">Home</a></li>
-        <li><a href="galleri.html" class="nav-link">Gallery</a></li>
+        <li><a href="galleri.html" class="nav-link active">Gallery</a></li>
         <li><a href="kontakta.html" class="nav-link">Contact me</a></li>
-        <li><a href="omMig.html" class="nav-link active">About me</a></li>
+        <li><a href="omMig.html" class="nav-link">About me</a></li>
     </ul>
 </nav>
 
 <main>
-
-        <h2>Some pictures of interests i have and countys i have lived in</h2>
+    <h2>Some pictures of interests I have and counties I have lived in</h2>
     <section class="gallery">
-        <div class="gallery-item"><img src="bilder/Färjestads_BK_Logo.svg.png" alt="Fäjestad"></div>
+        <div class="gallery-item"><img src="bilder/Färjestads_BK_Logo.svg.png" alt="Färjestad"></div>
         <div class="gallery-item"><img src="bilder/Liverpool_FC.svg.png" alt="Liverpool"></div>
         <div class="gallery-item"><img src="bilder/IFK_Norrkoping_logo.svg.png" alt="Peking"></div>
         <div class="gallery-item"><img src="bilder/1200px-Kejsarn_av_Portugallien.jpg" alt="Selma"></div>
@@ -36,16 +41,37 @@
 
 <footer>
     <div class="footer-content">
-        <ul class="social-links">
-            <li><a href="https://linkedin.com/in/marcus-olsson97">LinkedIn</a></li>
-            <li><a href="https://github.com/0lss0n97">GitHub</a></li>
-        </ul>
-        <ul class="footer-nav">
-            <li><a href="omMig.html">About Me</a></li>
-            <li><a href="kontakta.html">Contact Me</a></li>
-            <li><a href="galleri.html">My Projects</a></li>
-        </ul>
+        <div class="footer-section footer-socials">
+            <h3>Socials</h3>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/marcus-olsson97"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/0lss0n97"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section footer-nav">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="omMig.html">About Me</a></li>
+                <li><a href="kontakta.html">Contact Me</a></li>
+                <li><a href="galleri.html">My Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="kontakta.html">Contact Form</a></li>
+                <li><a href="mailto:marcusdyolsson@outlook.com">marcusdyolsson@outlook.com</a></li>
+                <li><a href="tel:+46760001234">+46760001234</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section footer-copyright">
+            <p>&copy; 2024 Marcus Olsson. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 </body>
+
 </html>
