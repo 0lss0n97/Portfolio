@@ -14,7 +14,18 @@
         <li><a href="förstaSida.html" class="nav-link">Home</a></li>
         <li><a href="galleri.html" class="nav-link">Gallery</a></li>
         <li><a href="kontakta.html" class="nav-link">Contact me</a></li>
-        <li><a href="omMig.html" class="nav-link active">About me</a></li>
+        <li class="dropdown">
+            <a href="omMig.html" class="nav-link active">About me</a>
+            <ul class="dropdown-content">
+                <li><a href="#about">About</a></li>
+                <li><a href="#frontendSkills">My Frontend Skills</a></li>
+                <li><a href="#backendSKills">Backend Skills</a></li>
+                <li><a href="#biData">BI/Data Analytics Skills</a></li>
+                <li><a href="#projectOne">Project One</a></li>
+                <li><a href="#projectTwo">Project Two</a></li>
+                <li><a href="#projectThree">Project Three</a></li>
+            </ul>
+        </li>
     </ul>
 </nav>
 <main>
@@ -41,6 +52,8 @@
         </p>
     </section>
     <section id="skills">
+    </section>
+    <section id="frontendSkills">
         <h2>My Frontend Skills</h2>
         <div class="wrapper">
             <div class="box gradient-border">
@@ -68,8 +81,9 @@
                 <p>On a scale of 1-5, I'm a 2</p>
                 <img src="bilder/Angular_full_color_logo.svg.png" alt="Angular LOGO">
             </div>
-
         </div>
+    </section>
+    <section id="backendSKills">
             <h2>Backend Skills</h2>
             <div class="wrapper">
                 <div class="box gradient-border">
@@ -103,7 +117,8 @@
                     <img src="bilder/mockito-logo.png" alt="mockito LOGO">
                 </div>
             </div>
-
+    </section>
+    <section id="biData">
                 <h2>BI/Data analytics Skills</h2>
                 <div class="wrapper">
                     <div class="box gradient-border">
@@ -112,11 +127,11 @@
                         <img src="bilder/Tableau-Logo.png" alt="Tableau LOGO">
                     </div>
                 </div>
-            </section>
+    </section>
 
     <h2>My Projects</h2>
     <section id="projects">
-    <section class="projectOne">
+    <section id="projectOne">
         <h2>Project 1</h2>
         <h3>Group Project Lego Database</h3>
         <p>
